@@ -1,0 +1,349 @@
+*html{
+    margin:0;
+    padding:0;
+    box-sizing:boader-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+html,body{
+    height:100%;
+}
+body{
+    background:white;
+}
+
+.image{
+    width:100%;
+    height:15rem;
+}
+.navbar{
+    text-align:right;
+    font-size:1.5rem;
+    height:2.rem;
+    padding-top:3rem;
+    background:white;
+    font-weight: bold;
+}
+
+.profile,.profile2,.profile3{
+    text-align:center;
+    font-size:2.4rem;
+}
+
+
+.copyright,.contact{
+    text-align:center;
+    font-size:2rem;
+    color:white;
+}
+
+.profiles{
+    background-image:url("My-images/paint-4.JPG");
+    height:70rem;
+    padding-top:10rem;
+    background-size:cover; 
+    color:black;
+    font-family: calibri; 
+    background-position: ; 
+}
+
+a{
+    text-decoration:none;
+    color: blue;
+    font-size: 1.8rem;
+}
+
+.futa{
+    background: midnightblue;
+    padding-top:1.5rem;
+
+
+}
+.profile4{
+    padding-top:10rem;
+}
+
+.profile4,.profile5,.profile6{
+    text-align:center;
+    font-size:2.4rem;
+    font-weight: bolder;
+}
+
+/*CSS FOR CONTACT PAGE*/
+
+label,input{
+    display: block;
+    font-size:2rem
+}
+
+#FORMS{
+    background-image: url(My-images/nicepaint.JPG);
+    background-size: contain;
+    background-position:right;
+    height:78rem
+ }
+
+ #FIRSTNAME,#EMAIL,#SUBJECT,#PHONENUMBER,#messages{
+     width:40rem
+ }
+
+#CONTACTLOGO{
+    width: 100%;
+    height: 16rem
+}
+
+.buttons{
+    margin-top:2rem;
+}
+.CONTACTPRO{
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: justify;
+    font-weight: bold;
+    color:purple;
+}
+.hours{
+    padding-left: 60rem;
+    color: darkred
+}
+.SEND{
+    font-size: 4rem;
+}
+label{
+    color:firebrick;
+    font-weight:bold;
+}
+input{
+    border:3px solid cornflowerblue;
+}
+#messages{
+    border: 3px solid cornflowerblue;
+}
+.contact-header{
+    font-family: calibri;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: red;
+}
+.contact-email,.contact-number{
+    font-family: courier new;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+}
+button:hover{
+    background-color: lightblue;
+}
+button{
+    font-weight: bold
+}
+.contact-line{
+    border: 2px solid red;
+    width: 45rem;
+    float:left;
+}
+
+/*CSS FOR THE SERVICE PAGE*/
+
+#servicelogo{
+    width:100%;
+    height:15rem;
+}
+/*CSS FOR PAINTING COINTAINER*/
+
+.container-services{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: ;
+}
+
+#imageservice{
+    width:48rem;
+    height: 35rem;
+}
+
+.PAINTING-IMAGE{
+    flex-basis: 230%;
+}
+
+.paintcontainer{
+    font-family: 'calibri','Courier New', Courier, monospace;
+    text-align: justify;
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+/* CSS FOR PLUMBING CONTAINER */
+
+.containerplumb{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+#plumbimg{
+    max-width: 100%;
+    height:35rem;
+}
+.plumbing-image{
+    flex-basis: 70%;
+    margin-top: 
+}
+.plumbingtext{
+    font-family: 'calibri','Courier New', Courier, monospace;
+    font-size:2rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+/*CSS FOR BUILDING CONTAINER*/
+
+.BUILDINGCON{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+
+#buildpic{
+    max-width: 100%;
+    height: 35rem
+}
+
+.BUILDINGIMG{
+    flex-basis: 160%;
+}
+
+.BUILDINGTEXT{
+    font-size: 2rem;
+    font-family: 'calibri',Courier New, Courier, monospace;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    text-align:justify;
+}
+
+
+/*CSS FOR TILING CONTAINER*/
+
+.tilingcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#MATILAZPIC{
+    max-width: 100%;
+    height: 35rem;
+}
+
+.TILESIMG{
+    flex-basis: 133%;
+}
+.tilingtext{
+    font-size: 2rem;
+    font-family: 'calibri',Courier New, Courier, monospace;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    text-align: justify;
+}
+
+/*CSS FOR CAPENTRY CONTAINER*/
+
+.capentry-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+#CAPENTRYPIC{
+    max-width: 100%;
+    height:35rem;
+    width: 60rem;
+}
+.capentry-image{
+    flex-basis: 140%
+}
+.capentry-text{
+    font-size: 2rem;
+    font-family: 'calibri',Courier New, Courier, monospace;
+    text-align: justify;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+
+/*CSS FOR WELDING CONTAINER*/
+
+.welding-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#weliding-pic{
+    max-width: 100%;
+    height: 35rem;
+}
+.welding-image{
+    flex-basis: 103%;
+}
+.welding-text{
+    font-size: 2rem;
+    font-family: 'Calibri',Courier New, Courier, monospace;
+    text-align: justify;
+    padding-left:1.5rem ;
+    padding-right:1.5rem;
+}
+
+.plumbing-heading,.building-heading,.welding-heading,.capentry-heading,.tiling-heading,.painting-heading{
+    font-family: 'Calibri', Courier New, Courier, monospace;
+    color: red;
+}
+
+/*CSS FOR ABOUT PAGE*/
+
+.about-profile{
+    font-size: 2.4rem;
+    font-family: cursive;
+    text-align: justify;
+    font-weight: bold;
+    color: purple;
+    background-color: white;
+}
+.about-heading{
+    font-size: 3rem;
+    background-color: white;
+    color: red;
+}
+.about-profile2{
+    margin-top: 7rem;
+}
+.line{
+    border:6px solid red;
+    
+}
+.about-line{
+    border: 6px solid red;
+}
+hr{
+    border: 3px solid lightblue;
+}
+.facebook-icon{
+height: 5rem;
+width: 5rem;
+}
+.facebook-link{
+    width: 5rem;
+    margin: auto;
+}
