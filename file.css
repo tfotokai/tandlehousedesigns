@@ -47,7 +47,6 @@ body{
     background-size:cover; 
     color:black;
     font-family: calibri; 
-    background-position: ; 
 }
 
 a{
@@ -100,7 +99,7 @@ label,input{
 }
 .CONTACTPRO{
     font-size: 2rem;
-    font-family: cursive;
+    font-family: 'calibri',courier new;
     text-align: justify;
     font-weight: bold;
     color:purple;
@@ -158,7 +157,6 @@ button{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding-bottom: ;
 }
 
 #imageservice{
@@ -315,7 +313,7 @@ button{
 
 .about-profile{
     font-size: 2.4rem;
-    font-family: cursive;
+    font-family: 'calibri',courier new;
     text-align: justify;
     font-weight: bold;
     color: purple;
