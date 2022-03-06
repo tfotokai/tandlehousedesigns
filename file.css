@@ -79,7 +79,8 @@ label,input{
     background-image: url(My-images/nicepaint.JPG);
     background-size: contain;
     background-position:right;
-    height:78rem
+    height:78rem;
+    background-repeat:no-repeat;
  }
 
  #FIRSTNAME,#EMAIL,#SUBJECT,#PHONENUMBER,#messages{
