@@ -321,8 +321,10 @@ button{
     background-color: white;
     color: red;
 }
-.about-profile2{
+.about-profile2,.about-profile1{
     margin-top: 7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .line{
     border:6px solid red;
@@ -342,3 +344,6 @@ width: 5rem;
     width: 5rem;
     margin: auto;
 }
+.the-list{
+    padding-left:4rem;
+    padding-right:4rem;
