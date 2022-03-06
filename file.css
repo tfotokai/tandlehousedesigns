@@ -1,4 +1,4 @@
-*html{
+*{
     margin:0;
     padding:0;
     box-sizing:boader-box;
@@ -8,9 +8,6 @@ html{
     font-size:62.5%;
 }
 
-html,body{
-    height:100%;
-}
 body{
     background:white;
 }
